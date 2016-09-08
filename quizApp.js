@@ -30,9 +30,9 @@
 
 //Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
 
-  var user1 = new QuizUser('Noah', 'nbtippetts@gmail.com', 'otboyz', 0)
-  var user2 = new QuizUser('Carson', 'Carsontippetts@gmail.com', 'imgay', 0)
-  var user3 = new QuizUser('Jake', 'Jaketippetts@gmail.com', 'imalsogay', 0)
+  var user1 = new QuizUser('Noah', 'nbtippetts@gmail.com', 'otboyz', '100%')
+  var user2 = new QuizUser('Carson', 'Carsontippetts@gmail.com', 'imgay', '1%')
+  var user3 = new QuizUser('Jake', 'Jaketippetts@gmail.com', 'imalsogay', '90%')
   quizUsers.push(user1, user2, user3)
 
 
@@ -47,9 +47,9 @@
 //title: "T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value"
 //Fill in the rest of the required data as you see appropriate.
 
-  var firstQuestion = new Question('T/F: Inheritance is achieved in JavaScript through Prototypes?')
-  var secoundQuestion = new Question('T/F: JavaScript is just a scripting version of Java')
-  var thridQuestion = new Question("T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value")
+  var firstQuestion = new Question('T/F: Inheritance is achieved in JavaScript through Prototypes?', ['T', 'F'], 'T', 'Kinda difficult')
+  var secoundQuestion = new Question('T/F: JavaScript is just a scripting version of Java', ['T', 'F'], 'F', 'Easy')
+  var thridQuestion = new Question("T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value", ['T', 'F'], 'T', 'Easy')
 //Now push all of your instances of Question into the questions Array
 
   questions.push(firstQuestion, secoundQuestion, thridQuestion)
